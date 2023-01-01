@@ -18,8 +18,8 @@ services:
     ports:
       - 3306:3306
 
-  web:
-    container_name: web
+  laravel:
+    container_name: laravel
     build:
       context: ./docker/php
     ports:
